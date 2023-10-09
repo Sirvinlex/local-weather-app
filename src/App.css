@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700');
+
+.title {
+  color: #ffffff;
+  margin-top: 124px;
+  margin-left: 20px;
+  text-align: center;
+}
+.component-container{
+  background-color: inherit;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.asset-container {
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 248px;
+  width: 264px;
+  border-radius: 4px;
+  position: relative;
+  margin-top: -15px;
+  cursor: pointer;
+}
+.image-container{
+  height: 64px;
+  width: 64px;
+  border-radius: 100px;
+  background: #F4FAFA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+  margin-top: 46px;
+}
+.icon-img {
+  height: 24px;
+  width: 24px;
+}
+.headers-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  height: 50px;
+  width: 232px;
+}
+.header {
+  width: 232px;
+  height: 22px;
+  text-align: center; 
+}
+.span1{
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: #121212;
+  cursor: default;
+}
+.subheader {
+  text-align: center;
+  width: 232px;
+  height: 20px;
+}
+.span2{
+  font-family: 'Noto Sans JP';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: #76757B;
+  cursor: default;
+}
+ */
+
+.container{
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.btn{
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.loading{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.title{
+  font-size: 35px;
+}
+
+@media only screen and (min-width: 600px) {
+  .title {
+      font-size: 50px;
+    }
+  .info-container{
+    font-size: 25px;
+  }
+  .temp{
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .title {
+      font-size: 65px;
+  }
+  .info-container {
+    font-size: 30px;
+  }
+  .loading{
+    font-size: 50px;
+  }
+  .img{
+    height: 100px;
+  }
+}
+@media only screen and (min-width: 992px) {
+  
+}
